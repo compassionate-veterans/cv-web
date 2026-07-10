@@ -1,0 +1,39 @@
+:root {
+  /* Palette derived directly from the Compassionate Veterans logo:
+     green #52AE46 / #61B956, red #F43E3E, slate #414D52, near-black wordmark.
+     Softened into a calm, high-legibility light colorway (WCAG AA for text). */
+
+  /* Surfaces — near-white with a faint green cast pulled from the mark. */
+  --paper:       #f6f8f4;   /* page background */
+  --paper-deep:  #eaefe6;   /* cards / subtle bands */
+  --paper-warm:  #ffffff;   /* elevated / pure white */
+
+  /* Text — dark slate-green from the logo's slate, darkened for contrast. */
+  --ink:         #26302b;   /* body text            — 12.8:1 on paper */
+  --ink-soft:    #4a564e;   /* secondary text       —  7.2:1 on paper */
+  --ink-faint:   #5f6a5b;   /* mono micro-labels    —  5.3:1 on paper */
+
+  --rule:        #d7ddd0;   /* hairlines */
+  --object:      #9daf95;
+  --object-fill: #b5c4ad;
+
+  /* Accent — the brand green deepened so it works as link/button text. */
+  --accent:      #2f6d3d;   /* links, primary button — 5.8:1 on paper */
+  --accent-soft: #3d8250;   /* hover / decorative only (not body text) */
+
+  /* True brand primaries — used sparingly, for marks and small accents. */
+  --brand-green: #52ae46;
+  --brand-red:   #c8402f;
+  --brand-slate: #414d52;
+
+  --serif: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --mono:  ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --max-w:   1120px;
+  --measure: 68ch;          /* comfortable single-column reading width */
+  --gutter:  clamp(20px, 4vw, 64px);
+  --pad-y:   clamp(80px, 10vw, 144px);
+
+  --ease-out:  cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-soft: cubic-bezier(0.4, 0, 0.2, 1);
+}

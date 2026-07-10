@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Claude Code local settings
+.claude/
+
+# Node (in case a build/tooling step is ever added)
+node_modules/
+npm-debug.log*
+
+# Environment / secrets
+.env
+.env.*
+
+# Build / temp artifacts
+*.log
+*.tmp
+dist/
+.cache/
+
+# NOTE: img/originals/ (source images) ARE committed here on purpose —
+# they are the nonprofit's small brand source assets, not throwaway files.
