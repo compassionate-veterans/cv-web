@@ -32,7 +32,7 @@
   margin: 0 auto;
 }
 .col--wide { max-width: 900px; }
-.eyebrow { margin-bottom: 20px; }
+.eyebrow { margin-bottom: 20px; font-size: 14px; }
 .section-title.eyebrow-title { margin-bottom: clamp(20px, 2.8vw, 32px); }
 
 /* ---------- Hero ---------- */
